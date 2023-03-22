@@ -14,6 +14,13 @@ function getUserInput() {
 
     document.getElementById('priceresult').innerHTML = prckm * km ;
 
-    console.log(km, age)
+    if (age < 18) {
+        document.getElementById('priceresult').innerHTML = (prckm * km) * 0.8;
+    } else if (age > 65) {
+        document.getElementById('priceresult').innerHTML = (prckm * km) * 0.6;
+    }
 
 }
+
+
+
