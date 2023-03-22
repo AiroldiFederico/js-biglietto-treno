@@ -6,4 +6,16 @@ body {
 
 section {
   background-color: rgb(195, 195, 195);
+
+}
+
+.price {
+  height: 2.5rem !important;
+  width: 8rem !important;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.h-pers1 {
+
 }
