@@ -2,10 +2,16 @@
 
 
 
-function getUserInput() {
-    let nome = document.getElementById('name').value;
-    let cognome = document.getElementById('lstname').value;  
-    let colore = document.getElementById('color').value;
 
-    document.getElementById('pwd').innerHTML = nome + cognome + colore + '21';
+
+
+function getUserInput() {
+
+    // kilometers
+    let km = document.getElementById('km').value;
+    let age = document.getElementById('age').value;
+    const prckm = 0.21;
+
+    console.log(km, age)
+
 }

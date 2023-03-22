@@ -37,14 +37,14 @@
                 <div class="d-flex justify-content-center">
                     <!-- input kilometers -->
                     <div class="input-group mb-3 w-75">
-                        <input type="text" class="form-control" placeholder="Enter route kilometers" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control" placeholder="Enter route kilometers" aria-label="Recipient's username" aria-describedby="basic-addon2" id="km">
                         <span class="input-group-text" id="basic-addon2">Km</span>
                     </div>
     
                     <!-- input Age -->
                     <div class="mb-3 ms-1 w-25">
                         <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
-                        <input type="number" class="form-control" id="" placeholder="Enter Age">
+                        <input type="number" class="form-control" id="age" placeholder="Enter Age">
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@
                 <div class="d-flex justify-content-start h-pers1">
                     <!-- input button -->
                     <div class="input-group mb-3 ">
-                        <button type="submit" class="btn btn-primary mb-3">Calcola prezzo</button>
+                        <button type="submit" class="btn btn-primary mb-3" onclick="getUserInput()">Calcola prezzo</button>
                     </div>
     
                     <!-- Price -->
